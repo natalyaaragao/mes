@@ -1,0 +1,232 @@
+<html>
+<head>
+<title> EXP </title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="css/stimenu.css" />
+		<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8" />
+		<meta http-equiv="Content-Language" content="pt-br" />
+		<meta http-equiv="Content-Script-Type" content="text/javascript" />
+		<meta http-equiv="Content-Style-Type" content="text/css" />
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow&v1' rel='stylesheet' type='text/css' />
+		<link href='http://fonts.googleapis.com/css?family=Wire+One&v1' rel='stylesheet' type='text/css' />
+ </head>
+ <script>
+ var ractive = new Ractive({
+  el: '#container',
+  template: '#template',
+  data: {}
+});
+</script>
+<body>
+
+<!-- MENU -->
+
+<div class="outer-menu">
+  <input class="checkbox-toggle" type="checkbox" />
+  <div class="hamburger">
+    <div></div>
+  </div>
+  <div class="menu">
+    <div>
+      <div>
+        <ul>
+          <li><a href="#equipe">Sobre</a></li>
+          <li><a href="#servico">Serviço</a></li>
+          <li><a href="#port">Portfolio</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--FIM MENU -->
+
+<!-- INICIO -->
+<div id="inicio">
+<video autoplay="true" loop>
+		<source src="prog.mp4" type="video/mp4">
+		</video>
+		<div class="conteudo">
+<div class="insetshadow"> <center><p> Sempre um level acima!</p> </center> </div>
+<span><div class="retroshadow"> MORE EXPERIENCE SYSTEMS </div></span>
+  
+		</div>
+		</div>
+<!-- INICIO -->
+
+<!-- SOBRE -->
+<div id="equipe">
+<div class="sobre"> SOBRE NÓS </div>
+<div class="sobretexto"> A empresa More Experience Systems foi 
+criada no ano 2017 e visa ser referência em sistemas com 
+simplicidade e praticidade. Buscando sempre um atendimento 
+de qualidade. Valorizando sempre a ética, inovação, respeito 
+e comprometimento. </div>
+<div class="bg4">
+</div>
+</div>
+<!-- FIMSOBRE -->
+
+<!--INFORMAÇÃO DA EMPRESA -->
+<div id="servico">
+<div class="bg6">
+<center><div class="servico"> SERVIÇO </div></center>
+<div class="container">
+<ul id="sti-menu" class="sti-menu">
+<li data-hovercolor="#37c5e9">
+<a href="#">
+<h2 data-type="mText" class="sti-item">SOFTWARES</h2>
+<h3 data-type="sText" class="sti-item">Praticos e eficientes.</h3>
+</a>
+</li>
+<li data-hovercolor="#ff395e">
+<a href="#">
+<h2 data-type="mText" class="sti-item">WEB SITES</h2>
+<h3 data-type="sText" class="sti-item">Layout responsivo para fácil leitura e navegação.</h3>
+</a>
+</li>
+<li data-hovercolor="#57e676">
+<a href="#">
+<h2 data-type="mText" class="sti-item">APLICATIVOS</h2>
+<h3 data-type="sText" class="sti-item">Desenvolvemos aplicativos para as plataformas iOS e Android.</h3>
+</a>
+</li>
+<li data-hovercolor="#d869b2">
+<a href="#">
+<h2 data-type="mText" class="sti-item">E-COMMERCE</h2>
+<h3 data-type="sText" class="sti-item">Lojas virtuais com layout intuitivo e de fácil uso e gerenciamento.</h3>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!-- FIM INFORMAÇÃO DA EMPRESA -->
+
+<!-- PORTFOLIO -->
+<div id="port">
+<div class="bg7">Portfolio</div>
+
+<center>
+<figure class="snip1577">
+  <img src="img/port11.jpg" alt="sample99" />
+  <figcaption>
+    <h3>Software</h3>
+    <h4>Bits Gráfica</h4>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+
+<figure class="snip1577"><img src="img/port2.jpg" alt="sample117" />
+  <figcaption>
+    <h3>Web Site</h3>
+    <h4>Bits Gráfica</h4>
+  </figcaption>
+  <a href="#"></a>
+</figure>
+</center>
+
+
+<!-- CAIXA-->
+
+<center><label for="mpo-modal-controller" class="btn">CONFIRA</label></center>
+<div class="mpo-modal">
+  <input type="checkbox" id="mpo-modal-controller" class="mpo-modal-open" hidden>
+  <div class="mpo-modal-wrap">
+    <label for="mpo-modal-controller" class="mpo-modal-overlay"></label>
+    <div class="mpo-modal-body">
+
+      <label for="mpo-modal-controller" class="mpo-modal-close">&times;</label>
+
+      <input type="radio" name="content-nav" id="modal-content-1" class="modal-radio" checked hidden/>
+      <input type="radio" name="content-nav" id="modal-content-2" class="modal-radio" hidden/>
+      <input type="radio" name="content-nav" id="modal-content-3" class="modal-radio" hidden/>
+
+      <div class="mpo-modal-slide content-1">
+        <div class="mpo-modal-content">
+          <h2>Example Modal - Slide 1</h2>
+            Lorem
+
+          <div class="mpo-modal-nav">
+            <label for="modal-content-2" class="next-slide">&#8250;&#8250;</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="mpo-modal-slide content-2">
+        <div class="mpo-modal-content">
+          <h2>Example Modal - Slide 2</h2>
+            Lorem
+
+          <div class="mpo-modal-nav">
+            <label for="modal-content-1" class="prev-slide">&#8249;&#8249;</label>
+            <label for="modal-content-3" class="next-slide">&#8250;&#8250;</label>
+          </div>
+        </div>
+      </div>
+
+      <div class="mpo-modal-slide content-3">
+        <div class="mpo-modal-content">
+          <h2>Example Modal - Slide 3</h2>
+            Lorem.
+
+          <div class="mpo-modal-nav">
+            <label for="modal-content-2" class="prev-slide">&#8249;&#8249;</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<!-- FIM CAIXA -->
+</div>
+<!-- FIM PORTFOLIO -->
+
+<!-- CONTATO -->
+<div id="contato">
+<div class="bg2">
+<div class="text"> CONTATO </div>
+
+ <div id="container">
+  
+  <form action="#" method="post" id="contact_form">
+    <div class="name">
+      <label for="name"></label>
+      <input type="text" placeholder="Nome" name="name" id="name_input" required>
+    </div>
+    <div class="email">
+      <label for="email"></label>
+      <input type="email" placeholder="Email" name="email" id="email_input" required>
+    </div>
+    <div class="telephone">
+      <label for="name"></label>
+      <input type="text" placeholder="Telefone" name="telephone" id="telephone_input" required>
+    </div>
+    <div class="message">
+      <label for="message"></label>
+      <textarea name="message" placeholder="Mensagem" id="message_input" cols="30" rows="5" required></textarea>
+    </div>
+    <div class="submit">
+      <input type="submit" value="Enviar" id="form_button" />
+    </div>
+  </form><!-- // End form -->
+</div><!-- // End #container -->
+
+</div>
+</div>
+<!-- FIM CONTATO -->
+
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.14/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+		<script type="text/javascript" src="js/jquery.iconmenu.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#sti-menu').iconmenu();
+			});
+		</script>
+
+</body>
+</html>
